@@ -81,14 +81,14 @@ has-color@~0.1.0:
   version "0.2.6"
   resolved "https://registry.yarnpkg.com/heap/-/heap-0.2.6.tgz#087e1f10b046932fc8594dd9e6d378afc9d1e5ac"
 
-jake@8.0.12:
-  version "8.0.12"
-  resolved "https://registry.yarnpkg.com/jake/-/jake-8.0.12.tgz#6074c542f6187eb647c3aee5621fee259c578edd"
+jake@8.1.1:
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/jake/-/jake-8.1.1.tgz#435b24563f6996b0d63e429969a7de54d8417c6c"
   dependencies:
     async "0.9.x"
     chalk "0.4.x"
     filelist "0.0.x"
-    minimatch "0.2.x"
+    minimatch "3.x"
     utilities "1.0.x"
 
 json-diff@0.5.2:
@@ -221,26 +221,11 @@ lodash.support@~2.3.0:
   dependencies:
     lodash._renative "~2.3.0"
 
-lru-cache@2:
-  version "2.7.3"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-2.7.3.tgz#6d4524e8b955f95d4f5b58851ce21dd72fb4e952"
-
-minimatch@0.2.x:
-  version "0.2.14"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-0.2.14.tgz#c74e780574f63c6f9a090e90efbe6ef53a6a756a"
-  dependencies:
-    lru-cache "2"
-    sigmund "~1.0.0"
-
-minimatch@^3.0.3:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.0.4.tgz#5166e286457f03306064be5497e8dbb0c3d32083"
+minimatch@3.x, minimatch@^3.0.3:
+  version "3.1.5"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-3.1.5.tgz#580c88f8d5445f2bd6aa8f3cadefa0de79fbd69e"
   dependencies:
     brace-expansion "^1.1.7"
-
-sigmund@~1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/sigmund/-/sigmund-1.0.1.tgz#3ff21f198cad2175f9f3b781853fd94d0d19b590"
 
 strip-ansi@~0.1.0:
   version "0.1.1"
